@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول پرسنلی</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/MyStyle.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">جدول پرسنلی</h2>
+        <div class="table-responsive">
+            <table id="personnelTable" class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">کد پرسنلی <span class="sort-icon">⇅</span></th>
+                        <th scope="col">نام <span class="sort-icon">⇅</span></th>
+                        <th scope="col">نام خانوادگی <span class="sort-icon">⇅</span></th>
+                        <th scope="col">تاریخ تولد <span class="sort-icon">⇅</span></th>
+                        <th scope="col">میزان تحصیلات <span class="sort-icon">⇅</span></th>
+                        <th scope="col">شماره موبایل <span class="sort-icon">⇅</span></th>
+                        <th scope="col">عملیات</th>
+                    </tr>
+                    <tr>
+                        <th><input type="number" class="search-input" placeholder="جستجو کد پرسنلی" data-index="0"></th>
+                        <th><input type="text" class="search-input" placeholder="جستجو نام" data-index="1"></th>
+                        <th><input type="text" class="search-input" placeholder="جستجو نام خانوادگی" data-index="2"></th>
+                        <th><input type="text" class="search-input" placeholder="جستجو تاریخ تولد" data-index="3"></th>
+                        <th><input type="text" class="search-input" placeholder="جستجو میزان تحصیلات" data-index="4"></th>
+                        <th><input type="number" class="search-input" placeholder="جستجو شماره موبایل" data-index="5"></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12345</td>
+                        <td>علی</td>
+                        <td>رضایی</td>
+                        <td>1370/01/01</td>
+                        <td>لیسانس</td>
+                        <td>09123456789</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67890</td>
+                        <td>مریم</td>
+                        <td>احمدی</td>
+                        <td>1365/05/12</td>
+                        <td>فوق لیسانس</td>
+                        <td>09129876543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67891</td>
+                        <td>محمد</td>
+                        <td>احمدی</td>
+                        <td>1363/05/12</td>
+                        <td>فوق دیپلم</td>
+                        <td>09128876543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67898</td>
+                        <td>حسین</td>
+                        <td>امیری</td>
+                        <td>1369/05/12</td>
+                        <td>فوق لیسانس</td>
+                        <td>09129876543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67893</td>
+                        <td>امیر</td>
+                        <td>امامی</td>
+                        <td>1361/06/12</td>
+                        <td>فوق لیسانس</td>
+                        <td>09124376543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67894</td>
+                        <td>حسن</td>
+                        <td>حضرتی</td>
+                        <td>1367/07/12</td>
+                        <td>لیسانس</td>
+                        <td>09129856543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67895</td>
+                        <td>مینا</td>
+                        <td>یزدی</td>
+                        <td>1367/05/12</td>
+                        <td>فوق لیسانس</td>
+                        <td>09146576543</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>67896</td>
+                        <td>میلاد</td>
+                        <td>ناظم</td>
+                        <td>1374/05/12</td>
+                        <td>لیسانس</td>
+                        <td>09149887643</td>
+                        <td><button class="btn btn-danger btn-sm delete-btn">حذف</button></td>
+                    </tr>
+                    <!-- ردیف‌های بیشتر می‌توانند در اینجا اضافه شوند -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script src="Scripts/Myscript.js"></script>
+</body>
+</html>
